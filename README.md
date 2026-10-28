@@ -2,7 +2,7 @@
 
 **Live site: https://alibb007.github.io/simple-meridian-demo/**
 
-A static website that shows what [Google Meridian](https://developers.google.com/meridian) can tell a business, with an auto-playing guided tour of a made-up company's results. Nothing to install: it runs in the browser, sets no cookies and sends no data.
+A static website that walks through what [Google Meridian](https://developers.google.com/meridian) can tell a business, as an auto-playing guided tour of a made-up company's results. Nothing to install: it runs in the browser, sets no cookies and sends no data.
 
 The full app (your own data, model fits, budget plans, GeoX lift tests) lives in [alibb007/Simple-Meridian](https://github.com/alibb007/Simple-Meridian) and runs on your computer with Docker.
 
@@ -10,11 +10,12 @@ The full app (your own data, model fits, budget plans, GeoX lift tests) lives in
 
 | Path | What it is |
 |---|---|
-| `index.html` | the page |
-| `assets/site.css`, `assets/site.js` | layout, charts drawn in SVG, and the tour |
+| `index.html` | the page: the tour itself |
+| `assets/site.css`, `assets/site.js` | layout, charts drawn in SVG, and the tour engine |
 | `assets/demo.json`, `assets/demo.js` | the demo company's results (same data, two formats; the `.js` copy lets the page work when opened from disk) |
 | `assets/charts/*.png` | Meridian's own report charts, captured from the full app |
 | `assets/how-it-works.html` | the 16-second motion graphic |
+| `tour_steps.py` | the tour's titles and captions |
 | `build_demo_json.py` | rebuilds `demo.json` / `demo.js`; run it inside the full app's repository, where `data/demo/` lives |
 
 ## Run it locally
