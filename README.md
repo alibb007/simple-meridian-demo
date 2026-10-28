@@ -2,7 +2,7 @@
 
 **Live site: https://alibb007.github.io/simple-meridian-demo/**
 
-A static website that walks through what [Google Meridian](https://developers.google.com/meridian) can tell a business, as an auto-playing guided tour of a made-up company's results. Nothing to install: it runs in the browser, sets no cookies and sends no data.
+A static website that walks through what [Google Meridian](https://developers.google.com/meridian) can tell a business, as an auto-playing guided tour of a made-up company's results. Nothing to install: it runs in the browser and sets no cookies. [GoatCounter](https://www.goatcounter.com/) counts visits and button clicks without storing anything that identifies a visitor.
 
 The full app (your own data, model fits, budget plans, GeoX lift tests) lives in [alibb007/Simple-Meridian](https://github.com/alibb007/Simple-Meridian) and runs on your computer with Docker.
 
