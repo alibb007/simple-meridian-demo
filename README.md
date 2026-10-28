@@ -14,7 +14,6 @@ The full app (your own data, model fits, budget plans, GeoX lift tests) lives in
 | `assets/site.css`, `assets/site.js` | layout, charts drawn in SVG, and the tour engine |
 | `assets/demo.json`, `assets/demo.js` | the demo company's results (same data, two formats; the `.js` copy lets the page work when opened from disk) |
 | `assets/charts/*.png` | Meridian's own report charts, captured from the full app |
-| `assets/how-it-works.html` | the 16-second motion graphic |
 | `assets/story.html` | the seven-scene story shown before the tour |
 
 The tour's text and the scripts that build this site live in the full app's repository, under [`scripts/site/`](https://github.com/alibb007/Simple-Meridian/tree/main/scripts/site): `tour_steps.py` (titles and captions), `build_site_data.py` (rebuilds `demo.json` / `demo.js`), `stamp_assets.py` and `publish.sh`.
