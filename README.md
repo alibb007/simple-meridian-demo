@@ -1,5 +1,7 @@
 # Simple Meridian · live demo
 
+**Live site: https://alibb007.github.io/simple-meridian-demo/**
+
 A static website that shows what [Google Meridian](https://developers.google.com/meridian) can tell a business, with an auto-playing guided tour of a made-up company's results. Nothing to install: it runs in the browser, sets no cookies and sends no data.
 
 The full app (your own data, model fits, budget plans, GeoX lift tests) lives in [alibb007/Simple-Meridian](https://github.com/alibb007/Simple-Meridian) and runs on your computer with Docker.
